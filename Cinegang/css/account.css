@@ -1,0 +1,175 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-image: url(../media/images/background_account.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.account-box {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  color: transparent;
+}
+
+.account-box-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.account-box-title {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #282020;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.5); /* Transparent white background for inputs */
+}
+
+.form-group textarea {
+  height: 100px;
+}
+
+.btn-primary {
+  display: inline-block;
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.site-header {
+  background-color: #282020;
+  padding: 10px 0;
+}
+
+.site-header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-header .nav {
+  display: flex;
+}
+
+.site-header .nav__toggle {
+  display: none;
+}
+
+.site-header .nav__wrapper {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.site-header .nav__item {
+  margin-right: 20px;
+}
+
+.site-header .nav__item a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.site-header .nav__item a.active {
+  color: #007bff;
+}
+
+.site-header .nav__item a:hover {
+  color: #0056b3;
+}
+
+.site-header .nav__toggle {
+  display: block;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.footer-container {
+  background-color: #282020;
+  padding: 20px 0;
+  text-align: center;
+  color: #fff;
+  flex-shrink: 0;
+  margin-top: 20px; /* Adjust margin as needed */
+}
+
+.footer-container img {
+  max-width: 150px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.footer-container a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-container a:hover {
+  text-decoration: underline;
+}
+
+.footer-container h3 {
+  color: #ffffff;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+
+.account-box {
+  width: 200%;
+}

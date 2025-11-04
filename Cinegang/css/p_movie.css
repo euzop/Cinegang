@@ -1,0 +1,73 @@
+/* Additional CSS for sticky footer */
+.homepage-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left */
+    padding-left: 20px; /* Add padding to the left side */
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.description-content {
+    display: flex;
+    align-items: flex-start;
+    color: white;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+footer {
+    flex-shrink: 0;
+    text-align: center;
+    padding: 20px 0;
+}
+/*-----------------------------------*/
+
+.media-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left */
+}
+
+.description-content {
+    display: flex;
+    align-items: flex-start;
+    color: white;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Poster */
+.media-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Adjust the gap between posters as needed */
+}
+
+.poster-image {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 15px; /* Adjust the value to change the roundness of the corners */
+}
+

@@ -1,0 +1,125 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.description-wrapper {
+    flex: 1;
+}
+.description-content {
+    display: flex;
+    align-items: flex-start;
+    color: white;
+    gap: 20px;
+    padding: 20px;
+}
+.film-poster img {
+    width: 200px; /* Adjust width as needed */
+    height: auto;
+    border-radius: 10px;
+}
+.film-details {
+    max-width: 800px;
+}
+.film-details h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.film-details p {
+    margin-top: 10px;
+    line-height: 1.6;
+    font-size: 1.1em;
+}
+.watchlist-button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.rating-system {
+    margin-top: 20px;
+    font-size: 1.275em; /* 85% of 1.5em */
+    transform: scale(0.85); /* 85% scale */
+    transform-origin: left; /* Ensures the scaling happens from the left side */
+}
+.rating-system span {
+    font-size: 1.2em;
+    margin-right: 10px;
+}
+.rating-system .fa-star {
+    color: gray;
+    cursor: pointer;
+}
+
+.review-section h3 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.review-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.review-section textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.review-section button {
+    align-self: flex-start;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.review-section button:hover {
+    background-color: #0056b3;
+}
+
+#reviewMessage {
+    margin-top: 10px;
+    font-size: 16px;
+}
+footer {
+    background: #282020;
+    color: #282020;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+/*notif */
+
+.notification {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+}
+
+.notification.success {
+    background-color: #4caf50;
+}
+
+.notification.error {
+    background-color: #f44336;
+}

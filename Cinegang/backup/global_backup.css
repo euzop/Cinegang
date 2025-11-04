@@ -1,0 +1,273 @@
+/* Font Import */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+/* Global CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.7;
+    background: #47282a;
+    color: #FFFFFF;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #222;
+}
+
+.wrapper {
+    max-width: 1140px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    color: #fff;
+    background-color: #2fa0f6;
+    min-width: 120px;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Header CSS */
+.site-header {
+    background-color: #282020;
+    padding: 10px 0;
+    color: #ffffff;
+}
+
+.site-header__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.site-header__start,
+.site-header__middle,
+.site-header__end {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.site-header__start img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__toggle {
+    display: none;
+}
+
+.nav__wrapper {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav__wrapper li {
+    margin: 0 10px;
+}
+
+.site-header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.site-header__end {
+    padding-left: 1rem;
+}
+
+@media (min-width: 630px) {
+    .site-header__wrapper {
+        justify-content: initial;
+    }
+}
+@media (min-width: 630px) {
+    .site-header__middle {
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 629px) {
+    .site-header__end {
+        padding-right: 45px;
+    }
+}
+
+@media (min-width: 630px) {
+    .nav__wrapper {
+        display: flex;
+    }
+}
+
+@media (max-width: 629px) {
+    .nav__wrapper {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        left: 0;
+        z-index: -1;
+        background-color: #d9f0f7;
+        visibility: hidden;
+        opacity: 0;
+        transform: translateY(-100%);
+        transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+    }
+    .nav__wrapper.active {
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(0);
+        z-index: 50;
+    }
+}
+
+.nav__item a {
+    display: block;
+    padding: 1rem;
+    color: #ffffff;
+}
+
+.nav__toggle {
+    display: none;
+}
+@media (max-width: 629px) {
+    .nav__toggle {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin-top: 32px;
+        margin-right: 20px;
+        padding: 7px;
+        background-color: transparent;
+    }
+}
+
+/* Form CSS */
+.form-group,
+.form-group label,
+.form-group input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    font-size: 0.8rem;
+}
+
+.form-group input {
+    padding: 10px 20px;
+    border: none;
+    border-bottom: 3px solid transparent;
+    background-color: #eeeeee;
+    outline-width: 0;
+    font-size: 1rem;
+}
+
+.form-group input:focus {
+    border-bottom: 3px solid coral;
+}
+
+.btn {
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    border: none;
+    border-radius: 2px;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn-primary {
+    background-color: coral;
+    color: #ffffff;
+}
+
+
+/* body */
+.review-container {
+    background-color: #47282a;
+}
+
+.container {
+    height: 90vh; /* Adjust this value as needed */
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* Footer CSS */
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #282020;
+    text-align: center;
+}
+
+footer img {
+    width: 80%;
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+footer h3 {
+    color: #ffffff;
+    margin: 0;
+    font-size: 1em;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

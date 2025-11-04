@@ -1,0 +1,212 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    flex-direction: column;
+}
+
+.profile-container {
+    background-color: #47282a;
+}
+
+.container {
+    min-height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile_pic {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.rounded-navbar {
+    border-radius: .25rem;
+    overflow: hidden;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    background-color: #eeeeee;
+    border-color: #eeeeee;
+    color: #302424;
+}
+
+.navbar-nav .nav-link {
+    color: #302424 !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #FFFFFF;
+}
+
+.hr {
+    border-top: 1px solid #ccc;
+}
+
+h6 {
+    color: #FFFFFF !important;
+}
+
+.card {
+    border-color: #eeeeee !important;
+}
+
+.card-body {
+    border-radius: .10rem !important;
+    background-color: #eeeeee !important;
+    color: #302424 !important;
+}
+
+.list-group {
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-group-item {
+    background-color: #eeeeee !important;
+    color: #302424 !important;
+    border-color: #302424 !important;
+    border-width: 1px !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    max-width: 600px;
+    padding: 1.0rem;
+    margin-left: 0.5rem;
+}
+
+.poster {
+    width: 170px;
+    height: 245px;
+    object-fit: cover;
+    border-radius: 5px;
+    position: relative; /* Set position to relative to use top, bottom, left, right */
+    top: 1px; /* Adjust the vertical position */
+    right: 3px; /* Adjust the horizontal position */
+}
+
+.media-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.custom-label {
+    color: grey !important;
+}
+
+.custom-input {
+    color: grey !important;
+    border-color: grey !important;
+}
+
+.custom-check {
+    color: grey !important;
+}
+
+.custom-input::placeholder {
+    color: grey !important;
+}
+
+.custom-input:focus {
+    border-color: grey !important;
+    box-shadow: 0 0 0 0.2rem rgba(128, 128, 128, 0.25) !important;
+}
+
+.custom-check:checked {
+    background-color: grey !important;
+    border-color: grey !important;
+}
+
+.submit-button {
+    justify-content: center;
+    align-items: center;
+}
+
+/* Header and Footer styles from account.css */
+
+.site-header {
+    background-color: #282020;
+    padding: 10px 0;
+}
+
+.site-header .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-header .nav {
+    display: flex;
+}
+
+.site-header .nav__toggle {
+    display: none;
+}
+
+.site-header .nav__wrapper {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.site-header .nav__item {
+    margin-right: 20px;
+}
+
+.site-header .nav__item a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.site-header .nav__item a.active {
+    color: #007bff;
+}
+
+.site-header .nav__item a:hover {
+    color: #0056b3;
+}
+
+.site-header .nav__toggle {
+    display: block;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+
+
+.footer-container {
+    background-color: #282020;
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+    flex-shrink: 0;
+    margin-top: 20px; /* Adjust margin as needed */
+}
+
+.footer-container img {
+    max-width: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.footer-container a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-container a:hover {
+    text-decoration: underline;
+}
+
+.footer-container h3 {
+    color: #ffffff;
+}

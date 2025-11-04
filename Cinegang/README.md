@@ -1,0 +1,2 @@
+# CineGang
+A dynamic web application designed to bring together movie enthusiasts in a vibrant online community. CineGang aims to provide a platform where users can create accounts, manage their profiles, share their favorite movies, and engage in discussions about the latest films. This project leverages PHP for server-side scripting and MySQL for robust data management, ensuring a seamless and interactive user experience.
